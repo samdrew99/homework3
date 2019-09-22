@@ -1,0 +1,146 @@
+/*Worked with Flannery O'Donnel, Anna Grofsky and Kristen Picard*/
+body{
+  background-color: #dddddd;
+  font-family: 'Quicksand', sans-serif;
+  background-image: url(../images/"pidgeon-background.jpg");
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+
+}
+
+h1{
+  font-size:2em;
+  line-height: 1.5;
+  color: #c12258;
+
+}
+p{
+  color: black;
+  font-size: 18px;
+  padding-top: 15px;
+
+}
+a{
+  text-decoration: underline;
+  color:#c12258;
+  font-size:18px;
+}
+*:focus{
+  border: 1px solid red;
+}
+
+
+table{
+  border: 2px solid black;
+  border-collapse: separate;
+  border-spacing: 0;
+  overflow: hidden;
+  border-radius: 10px;
+
+}
+.colhead{
+  width: 150px;
+  padding: 10px 10px 10px 10px;
+  color: white;
+  background-color: #7e0830;
+  text-transform: uppercase;
+  text-align: center;
+  border-top: 2px solid black;
+  border-bottom:2px solid black;
+}
+tbody tr td{
+  text-align: center;
+  border-bottom: 2px solid black;
+
+}
+.rowhead{
+  text-align: center;
+  border-bottom: 2px solid black;
+}
+head tr th{
+  border-bottom: 2px solid black;
+
+}
+tr{
+  padding: 15px;
+  text-align: center;
+  border-bottom: 2px solid black;
+}
+tr:nth-child(even){
+  background-color: #dddddd;
+
+}
+tr:nth-child(odd){
+  background-color: rgba(0,0,0,0);
+}
+tr:hover{
+  background-color: #fab9cf;
+
+}
+table tr:first-child th:first-child{
+  border-top-left-radius:10px;
+}
+table tr:first-child th:last-child{
+  border-top-right-radius: 10px;
+}
+tbody tr:first-child th:first-child{
+  border-top-left-radius:10px;
+}
+tbody tr:first-child th:last-child{
+  border-top-right-radius: 10px;
+}
+
+footer{
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  min-height: 60px;
+  position: fixed;
+
+
+
+}
+/* couldnt get footer to show words so added this*/
+footer p{
+  color: white;
+  text-align: center;
+  background-color: black;
+
+
+}
+
+
+/*All files and folders present, HTML body not changed, CSS stylesheet in proper format
+2. Text matches the following styles:
+a. Quicksand font (you will need to use a Google Fonts link) with sans-serif fallback
+b. Header 1 should be 2em, each line should be 1.5 height, and dark red (#c12258)
+c. Paragraphs should be “black”, 18px, with 15px of padding on the top only
+d. Links should be 18px, dark red (#c12258), with an underline
+e. Focused elements should have a 1px “red” border (make sure you format
+parameters as ‘px, weight, color’ order)
+3. Page background should use the provided image as a non-repeating background, with a
+fallback color of light grey (#dddddd)
+4. Table should have the following styles:
+a. Table has 2px black border (make sure you format parameters as ‘px, weight,
+color’ order)
+b. Column headers are always at least 150px wide, with 10px of padding. Column
+header text is white, centered, and uppercase with a dark red background
+(#7e0830).
+c. Table cells have centered text with a 2px black border on only one side, and 15px
+padding on all sides.
+d. Row headers have a 2px black border that matches the rest of the rows.
+e. Every even numbered table row has a grey background (#dddddd), every add
+table row has a transparent background.
+f. Hovering over a row changes the background color to light red (#fab9cf).
+5. Table should have only exterior rounded corners
+a. Outside corners of the table are rounded with 10px radius (you need extra code to
+make sure only the *outside* borders are rounded, not all of the cells)
+b. HINT: You will need to round the corners of the table AND the corner cells. How
+can you use psudeoclasses to make sure the outer cells are rounded no matter how
+big the table is?
+
+6. Footer has the following styles:
+a. Footer has “white” text on a “black” background
+b. Is always located at the bottom of the browser window, no matter how small the
+page content is. (this may take more than one line of code)
+c. Footer is always at least 60px tall.*/
